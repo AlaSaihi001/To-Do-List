@@ -6,7 +6,7 @@ export default function Header() {
   const [tasks, setTasks] = useState([]);
 
   function addTask(event) {
-    event.preventDefault(); // Prevents the default form submission behavior
+    event.preventDefault(); 
 
     if (task.trim() === "") {
       alert("You should add a task before submitting");
@@ -23,15 +23,13 @@ export default function Header() {
     };
 
     setTasks([...tasks, newTask]);
-    setTask(""); // Clear input field after adding task
-    setType("default"); // Reset select to default value
+    setTask(""); 
+    setType("default"); 
   }
 
   function handleCheckboxChange(taskId) {
-    // Show a confirmation dialog to the user
     const userConfirmed = confirm("Are you sure you want to remove this task?");
-    
-    // If the user clicked "OK", proceed to remove the task
+
     if (userConfirmed) {
       setTasks(tasks.filter((task) => task.id !== taskId));
     }
