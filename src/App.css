@@ -12,26 +12,29 @@ code {
     monospace;
 }
 
-.App {
-  background: linear-gradient(to top, #6CCFF6 -15%, #AF2BBF);
+body {
+  background: linear-gradient(to top, #5c4840, #a14f40);
+  background-size: cover;
+  background-attachment: fixed;
   text-align: center;
-  height: 98.5vw;
 }
 
 
 /*&----------------Header.js--------------*/
 
 .header {
-  justify-content: space-evenly;
+  flex-wrap: wrap;
   display: flex;
-  overflow: auto;
+  justify-content: space-evenly;
   background-color: #0E0E52;
-  width: 100%;
 }
 
 .header-component {
+  justify-content: center;
   display: inline-flex;
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .enter-task {
@@ -50,6 +53,7 @@ code {
   height: 40%;
   width: 30%;
   text-align: center;
+  min-width: 200px;
 }
 
 .add-button {
