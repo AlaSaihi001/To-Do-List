@@ -19,7 +19,6 @@ body {
   text-align: center;
 }
 
-
 /*&----------------Header.js--------------*/
 
 .header {
@@ -74,8 +73,6 @@ body {
   width: 200px;
 }
 
-/*^-----------------Body.js----------------*/
-
 .list-group {
   margin-top: 45px;
   border-radius: 55px;
@@ -83,7 +80,6 @@ body {
 }
 
 .list-group-item {
-
   margin-top: 5px;
   width: 50%;
   align-self: center;
