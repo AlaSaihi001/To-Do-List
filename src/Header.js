@@ -28,7 +28,11 @@ export default function Header() {
   }
 
   function handleCheckboxChange(taskId) {
+    const userConfirmed = confirm("Are you sure you want to remove this task?");
+
+    if (userConfirmed) {
       setTasks(tasks.filter((task) => task.id !== taskId));
+    }
   }
 
   return (
