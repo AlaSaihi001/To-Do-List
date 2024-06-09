@@ -13,7 +13,7 @@ code {
 }
 
 body {
-  background: linear-gradient(to top, #5c4840, #a14f40);
+  background: linear-gradient(to top, #443028, #a14f40);
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
@@ -25,12 +25,14 @@ body {
 .header {
   flex-wrap: wrap;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
   background-color: #0E0E52;
+  padding: 0 25px 25px 25px;
 }
 
 .header-component {
-  justify-content: center;
+  justify-content: space-around;
   display: inline-flex;
   align-items: center;
   display: flex;
@@ -38,28 +40,33 @@ body {
 }
 
 .enter-task {
-  margin-right: 30px;
+  margin-right: 20px;
   padding: 10px;
   font-size: 16px;
   height: 40%;
-  box-sizing: border-box;
+  width: 30%;
   border-radius: 30px;
   text-align: center;
+  min-width: 150px;
 }
 
 .task-type {
-  margin-right: 30px;
-  border-radius: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 16px;
   height: 40%;
   width: 30%;
+  border-radius: 20px;
   text-align: center;
-  min-width: 200px;
+  min-width: 150px;
 }
 
 .add-button {
-  width: 25%;
+  width: 15%;
   background-color: #6CCFF6;
   border-radius: 10px;
+  margin: 15px 0 0 0;
+  min-width: 75px;
 }
 
 .logo {
@@ -71,7 +78,7 @@ body {
 .list-group {
   margin-top: 45px;
   border-radius: 55px;
-
+  font-size: 20px;
 }
 
 .list-group-item {
