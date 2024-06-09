@@ -13,9 +13,66 @@ code {
 }
 
 .App {
-  background: linear-gradient(to top, rgb(49, 0, 185), #13001f);;
+  background: linear-gradient(to top, #6CCFF6 -15%, #AF2BBF);
   text-align: center;
   height: 98.5vw;
 }
 
 
+/*&----------------Header.js--------------*/
+
+.header {
+  justify-content: space-evenly;
+  display: flex;
+  overflow: auto;
+  background-color: #0E0E52;
+  width: 100%;
+}
+
+.header-component {
+  display: inline-flex;
+  align-items: center;
+}
+
+.enter-task {
+  margin-right: 30px;
+  padding: 10px;
+  font-size: 16px;
+  height: 40%;
+  box-sizing: border-box;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.task-type {
+  margin-right: 30px;
+  border-radius: 20px;
+  height: 40%;
+  width: 30%;
+  text-align: center;
+}
+
+.add-button {
+  width: 25%;
+  background-color: #6CCFF6;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 200px;
+}
+
+/*^-----------------Body.js----------------*/
+
+.list-group {
+  margin-top: 45px;
+  border-radius: 55px;
+
+}
+
+.list-group-item {
+
+  margin-top: 5px;
+  width: 50%;
+  align-self: center;
+}
